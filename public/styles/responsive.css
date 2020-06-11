@@ -1,0 +1,181 @@
+
+/*quando a tela for menor que 1700px ela recebera essas regras*/
+@media (max-width: 1700px) {
+    #page-home{
+        background-position-x: 40vw ;
+    }
+
+}
+
+
+
+@media (max-width: 1030px) {
+    #page-home {
+        height: 100vh;
+    
+        background: url('../assets/home-background.svg') no-repeat;
+        background-position-y: 425px;
+        background-size: 700px;
+    
+    }
+}
+
+
+@media (max-width: 900px) {
+    #page-home {
+        height: 80vh;
+    
+        background: url('../assets/home-background.svg') no-repeat;
+        /*background-position: 10vw 5vw 5vw 5vm bottom;   */  
+        background-position-y: 425px;
+        background-size: 700px;
+    
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header {
+        margin-bottom: 28px;
+    }
+
+    #page-home header a {
+        font-size: 25px;
+        position: absolute;
+        bottom: 15px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-home main h1{
+        align-items: center;
+    }
+
+    #page-home main p {
+        margin-bottom:65vw;
+    }
+
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 250px;
+    }
+
+    #page-create-point header a  {
+        font-size: 12px;
+   }
+
+    #page-create-point header a span {
+        margin-right: 10px;
+    
+        display: flex;
+    
+        width: 15px;
+        height: 19px;
+    }
+
+    #page-create-point form h1  {
+        font-size: 22px;
+   }
+    
+    #page-create-point .field-group {
+        flex-direction: column ;
+    }
+
+    /*.field+ .field é o que tiver um field ao lado do outro*/
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 420px) {
+    #page-home {
+        height: 90vh;
+    
+        background: url('../assets/home-background.svg') no-repeat;
+        /*background-position: 10vw 5vw 5vw 5vm bottom;   */  
+        background-position-y: 350px;
+        background-size: 350px;
+    
+    }
+
+    
+    #page-home header a {
+        font-size: 15px;
+        position: absolute;
+        bottom: 15px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main h1 {
+        align-items: center;
+        font-size: 30px;
+    }
+
+    #page-home main p {
+        align-items: center;
+        font-size: 15px;
+        margin-bottom:65vw;
+    }
+
+    #page-home main a {
+        max-width: 260px;
+        height: 38px;
+    }
+
+    #page-home main a span {
+        width: 52px;
+    }
+
+    #page-home main a strong{
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 370px) {
+    #page-home {
+        height: 90vh;
+    
+        background: url('../assets/home-background.svg') no-repeat;
+        /*background-position: 10vw 5vw 5vw 5vm bottom;   */  
+        background-position-y: 320px;
+        background-size: 350px;
+    
+    }
+
+    
+    #page-home header a {
+        font-size: 10px;
+        position: absolute;
+        bottom: 15px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #page-home main a {
+        max-width: 240px;
+        height: 34px;
+    }
+
+}
+
